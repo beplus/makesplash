@@ -1,0 +1,20 @@
+builds:
+  - main: main.go
+    binary: makesplash
+    goos:
+      - windows
+      - darwin
+      - linux
+    goarch:
+      - amd64
+archive:
+  format: tar.gz
+  files:
+    - LICENSE
+    - README.md
+brew:
+  github:
+    owner: beplus
+    name: makesplash
+  description: "Generate mobile app icons in all resolutions for both iOS and Android"
+  homepage: "https://github.com/beplus/makesplash"
