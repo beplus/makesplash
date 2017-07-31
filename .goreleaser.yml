@@ -18,3 +18,5 @@ brew:
     name: makesplash
   description: "Generate mobile app icons in all resolutions for both iOS and Android"
   homepage: "https://github.com/beplus/makesplash"
+snapshot:
+  name_template: SNAPSHOT-{{.Commit}}
