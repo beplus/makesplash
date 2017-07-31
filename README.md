@@ -22,7 +22,6 @@ Code repository for a course at [Udemy](https://www.udemy.com) about [React Nati
 - [FAQ](#FAQ)
 
 
-
 ## Requirments: 
 * Mac OS, Linux or Windows 
 * 64bites version
@@ -50,13 +49,31 @@ $ ./makesplash -h
 ```
 
 #### Make
-for create directory with icons from file `Image.png`
+for create directory with splashes from file `Image.png`
 ```bash
 $ ./makesplash --file Image.png
 ```
 or 
 ```bash
 $ ./makesplash -f Image.png
+```
+
+#### orientation
+for create only portrait splashes 
+```bash
+$ ./makesplash -f Image.png -p
+```
+or
+```bash
+$ ./makesplash -f Image.png --only-portrait
+```
+for create only landscape splashes
+```bash
+$ ./makesplash -f Image.png -l
+```
+or
+```bash
+$ ./makesplash -f Image.png --only-landscape
 ```
 
 #### Version 
